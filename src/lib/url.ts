@@ -1,5 +1,5 @@
-// url.ts
-// Query param sync for ?c= color
+"use client"
+
 import { useCallback } from "react";
 
 export function useUrlSync() {
