@@ -3,7 +3,6 @@
 import ColorInput from '@/components/ColorInput';
 import ConversionsList from '@/components/ConversionsList';
 import Swatches from '@/components/Swatches';
-import History from '@/components/History';
 import Navbar from '@/components/Navbar';
 
 export default function Home() {

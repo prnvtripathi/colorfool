@@ -19,7 +19,7 @@ export default function ColorInput() {
     if (urlColor) setValue(urlColor);
   }, [getColorParam]);
 
-  // On debounced value, parse and update URL, and update history
+  // On debounced value, parse and update URL
   useEffect(() => {
     if (!debounced) {
       setError(null);
