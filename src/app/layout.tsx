@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
-import "./globals.css";
-import { ThemeProvider } from "@/components/ThemeProvider";
+import type { Metadata } from 'next';
+import './globals.css';
+import { ThemeProvider } from '@/components/ThemeProvider';
 
 export const metadata: Metadata = {
-  title: "ColorFool",
-  description: "A tool for exploring and converting colors",
+  title: 'ColorFool',
+  description: 'A tool for exploring and converting colors',
 };
 
 export default function RootLayout({
