@@ -8,19 +8,18 @@ import Navbar from '@/components/Navbar';
 
 export default function Home() {
   return (
-    <div className="bg-background text-foreground min-h-screen font-sans">
+    <div className=" bg-radial from-transparent via-primary/10 dark:via-accent/80 to-transparent text-foreground min-h-screen font-sans">
       <Navbar />
 
       <div className="mx-auto w-full px-4 py-8 md:w-3/4">
         {/* Hero Section */}
         <div className="mb-12 text-center">
           <div className="mb-6">
-            <h2 className="tracking-relaxed from-primary mb-4 bg-gradient-to-r to-purple-600 bg-clip-text text-4xl font-bold text-transparent sm:text-5xl">
+            <h2 className="tracking-relaxed mb-4 bg-clip-text text-transparent bg-gradient-to-br from-primary to-orange-800 text-4xl font-bold sm:text-5xl">
               Colorfool
             </h2>
             <p className="text-muted-foreground mx-auto max-w-2xl text-lg leading-relaxed">
-              Convert any color code to every format. Fast, accessible, and
-              modern.
+              Convert any color code to every format. Fast and accessible.
             </p>
           </div>
         </div>
